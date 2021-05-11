@@ -19,6 +19,7 @@ To create cell tiles and corresponding csv files run the following commands.<br/
 
 ## Train
 To train models run the following command:<br/>
+```$ bash train.sh <directory where cell tiles were be saved> ```<br/>
 
 #### Metrics Visualization
 Metrics are logged to [wandb.ai](https://wandb.ai/).
@@ -26,3 +27,6 @@ Metrics are logged to [wandb.ai](https://wandb.ai/).
 ## Weights preparation
 To convert weight files from PyTorch Lightning to vanilla Pytorch run the following command.<br/>
 ```$ python convert2pytorch.py```
+
+## Inference
+You must upload the checkpoints of trained models to the kaggle dataset and create a submission notebook.
