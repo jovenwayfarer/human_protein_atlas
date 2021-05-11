@@ -5,11 +5,6 @@ This is code for my part of the solution of my team for [HPA - Single Cell Class
 ## Data Preparation
 Download [competitiona data](https://www.kaggle.com/c/hpa-single-cell-image-classification/data), [external data](https://www.kaggle.com/alexanderriedel/hpa-public-768-excl-0-16) (thanks to [Alexander Riedel](https://www.kaggle.com/alexanderriedel) and [cell masks for the train data](https://www.kaggle.com/its7171/hpa-mask) (thanks to [Takuya Ito](https://www.kaggle.com/its7171)).
 
-You can download via a browser or use the following commands (kaggle api required).<br/>
-```$ kaggle datasets download -d its7171/hpa-mask ```<br/>
-```$ kaggle datasets download -d alexanderriedel/hpa-public-768-excl-0-16 ```<br/>
-```$ kaggle competitions download -c hpa-single-cell-image-classification ```<br/>
-
 To create cell tiles and corresponding csv files run the following commands.<br/>
 ```$ python get_cells_comp_data --train_csv <csv for competition data> --train_data <path to compet. train images> --hpa_masks <path to masks> --cell_tiles <directory where cell tiles will be saved>```<br/>
 
