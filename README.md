@@ -11,7 +11,7 @@ To create cell tiles and corresponding csv files run the following command.<br/>
 #### Arguments
 - `arg1`: directory where cell-tiles will be saved
 - `arg2`: competition data csv file
-- `arg3`: external data csv
+- `arg3`: external data csv file
 - `arg4`: competition data images
 - `arg5`: external data images
 - `arg6`: path do hpa masks
