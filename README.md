@@ -8,7 +8,7 @@ Download [competitiona data](https://www.kaggle.com/c/hpa-single-cell-image-clas
 To create cell tiles and corresponding csv files run the following command.<br/>
 `$ bash preprocessing.sh <arg1> <arg2> <arg3> <arg4> <arg5> <arg6>`<br/>
 
-####Arguments
+#### Arguments
 - `arg1`: directory where cell-tiles will be saved
 - `arg2`: competition data csv file
 - `arg3`: external data csv
