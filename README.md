@@ -6,9 +6,11 @@ This is code for my part of the solution of my team for [HPA - Single Cell Class
 Download [competitiona data](https://www.kaggle.com/c/hpa-single-cell-image-classification/data), [external data](https://www.kaggle.com/alexanderriedel/hpa-public-768-excl-0-16) (thanks to [Alexander Riedel](https://www.kaggle.com/alexanderriedel) and [cell masks for the train data](https://www.kaggle.com/its7171/hpa-mask) (thanks to [Takuya Ito](https://www.kaggle.com/its7171)).
 
 To create cell tiles and corresponding csv files run the following commands.<br/>
-```$ python get_cells_comp_data --train_csv <csv for competition data> --train_data <path to compet. train images> --hpa_masks <path to masks> --cell_tiles <directory where cell tiles will be saved>```<br/>
+```$ python get_cells_comp_data --train_csv <csv for competition data> --train_data <path to compet. train images> --hpa_masks <path to masks> --cell_tiles <directory where 
+     cell tiles will be saved>```<br/>
 
-```$ python get_cells_Riedel_data --train_csv <csv for external data> --train_data <path to external train images> --cell_tiles <directory where cell tiles will be saved>```<br/>
+```$ python get_cells_Riedel_data --train_csv <csv for external data> --train_data <path to external train images> --cell_tiles <directory where cell tiles will be  
+     saved>```<br/>
 
 ```$ python create_folds.py```<br/>  
 
