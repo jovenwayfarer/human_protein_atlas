@@ -28,4 +28,4 @@ To convert weight files from PyTorch Lightning to vanilla Pytorch run the follow
 ```$ python convert2pytorch.py```
 
 ## Inference
-You must upload the checkpoints of trained models to the kaggle dataset and create a submission notebook.
+You must upload the checkpoints of trained models to the kaggle dataset and create a submission notebook. An example is [here](https://www.kaggle.com/joven1997/full-data-timm-ensemble).
