@@ -14,7 +14,7 @@ To create cell tiles and corresponding csv files run the following command.<br/>
 - `arg3`: external data csv file
 - `arg4`: competition data images
 - `arg5`: external data images
-- `arg6`: path do hpa masks
+- `arg6`: path to dir. with hpa masks
 
 ## Train
 To train models run the following command:<br/>
